@@ -1,0 +1,16 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.estadisticas {
+  padding: 5rem 0;
+
+  &__img {
+    margin: 1rem auto 0;
+    width: 50rem;
+    height: auto;
+
+    @include m.tablet {
+      width: 100%;
+    }
+  }
+}
