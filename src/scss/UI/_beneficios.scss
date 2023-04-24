@@ -14,9 +14,9 @@
     display: grid;
     justify-items: center;
     gap: 5rem;
-    grid-auto-flow: column;
 
     @include m.tablet {
+      grid-auto-flow: column;
       grid-template-columns: repeat(2, 1fr);
     }
   }
