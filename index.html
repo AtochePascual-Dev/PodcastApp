@@ -12,7 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 	<!-- Css -->
-	<link rel="stylesheet" href="build/css/app.css">
+	<link rel="stylesheet" preload href="build/css/app.css">
 
 </head>
 
@@ -58,8 +58,11 @@
 			</div>
 
 			<figure>
-				<img class="beneficio__img" src="./build/img/podcast_cover.png" alt="imagen podcast" loading="lazy" width="250"
-					height="250">
+				<picture>
+					<source srcset="./build/img/podcast_cover.avif" type="image/avif">
+					<source srcset="./build/img/podcast_cover.webp" type="image/webp">
+					<img src="./build/img/podcast_cover.png" alt="imagen podcast" loading="lazy" width="250" height="300">
+				</picture>
 			</figure>
 
 		</div>
@@ -70,7 +73,7 @@
 		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
 		<picture>
-			<img class="estadisticas__img" src="./build/img/grafica.svg" alt="imagen estadistica" width="400" height="auto">
+			<img class="estadisticas__img" src="./build/img/grafica.svg" alt="imagen estadistica" width="400" height="400">
 		</picture>
 	</section>
 
@@ -131,7 +134,7 @@
 				<source srcset="./build/img/app.avif" type="image/avif">
 				<source srcset="./build/img/app.webp" type="image/webp">
 				<img class="testimoniales__img" src="./build/img/app.jpg" alt="imagen app" loading="lazy" width="300"
-					height="auto">
+					height="300">
 			</picture>
 		</figure>
 
