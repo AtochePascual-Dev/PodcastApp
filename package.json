@@ -4,13 +4,15 @@
   "description": "Podcast App. CSS Grid, Flexbox, Gulp, SASS",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp"
+    "dev": "gulp",
+    "deploy": "gh-pages -d ./"
   },
   "author": "Juan De la torre @codigoconjuan",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "cssnano": "^5.0.7",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-avif": "^1.0.1",
     "gulp-imagemin": "^7.1.0",
