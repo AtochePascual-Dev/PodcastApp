@@ -7,7 +7,7 @@
     "dev": "gulp",
     "deploy": "gh-pages -d ./"
   },
-  "author": "Juan De la torre @codigoconjuan",
+  "author": "JeanCarlos",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
